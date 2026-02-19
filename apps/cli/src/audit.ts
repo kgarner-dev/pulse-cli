@@ -227,6 +227,7 @@ function renderReport(
         console.log(chalk.green('\n  No immediate actions required.'));
     }
 
+    console.log('\n' + chalk.italic(chalk.dim('Pulse is not a legal tool and does not provide legal advice.')));
     console.log(chalk.gray('\n' + '═'.repeat(width)));
 }
 

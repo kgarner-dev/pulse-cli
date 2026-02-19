@@ -1,6 +1,6 @@
 {
     "name": "@kaleb.garner/pulse",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "The open-source, context-aware compliance engine for healthcare frontends.",
     "type": "module",
     "main": "dist/index.js",
