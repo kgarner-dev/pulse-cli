@@ -201,8 +201,6 @@ function renderReport(
             console.log('\nWhat happened:');
             console.log(`  → ${f.rule.what_happened}`);
             console.log(`    • Detected at: ${chalk.dim(f.targetUrl.substring(0, 50))}...`);
-            console.log('\nLocation:');
-            console.log(`  → Page: ${url}`);
             console.log('\nWhy it matters:');
             console.log(`  → ${f.rule.why_it_matters}`);
             console.log('\nCitations:');
